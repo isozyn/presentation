@@ -176,46 +176,28 @@
                 <p>F E R E S H T E H &nbsp;&nbsp; K E I T U M E T S E &nbsp;&nbsp; D I M P E</p>
             </div>
         </div>
-
-        <!-- Slide 2: Introduction & Dataset -->
-        <div class="slide">
-            <h2>Introduction & Dataset</h2>
-            <div class="dataset-title">U.S. Prison Population by Race vs General Population Demographics</div>
-            <div class="content-text">
-                <p>We analyze racial disparities in U.S. incarceration using two datasets:</p>
-                <ul class="content-list">
-                    <li><strong>Prison Population by Race</strong> (by state)</li>
-                    <li><strong>General Population Demographics</strong> (by state)</li>
-                </ul>
-                <p>Goal: Reveal and address bias in incarceration rates.</p>
-            </div>
+    
+        <!-- Slide 2: Introduction -->
+         <div class="slide">
+            <h3>Introduction</h3>
+            <img src="introduction.png" alt="Introduction" style="max-width:90vw;max-height:80vh;width:auto;height:auto;box-shadow:0 4px 24px #eee;border-radius:12px;background:#fff;padding:16px;">
         </div>
 
-        <!-- Slide 3: Why This Matters & Methodology -->
+
+        <!-- Slide 3: Data Analysis and Fairness Assessment Process Image -->
         <div class="slide">
-            <h2>Why This Matters & Methodology</h2>
-            <div class="content-text">
-                <p>Biases in these datasets stem from systemic inequalities in the justice system.</p>
-                <ul class="content-list">
-                    <li>Disproportionate policing & sentencing</li>
-                    <li>Historical discrimination</li>
-                    <li>Data collection/reporting issues</li>
-                </ul>
-                <br>
-                <h3>How We Analyzed:</h3>
-                <ul class="content-list">
-                    <li>Data analysis: Pandas, Numpy</li>
-                    <li>Visualization: Matplotlib, Seaborn</li>
-                    <li>Bias detection: AIF360 toolkit</li>
-                </ul>
-            </div>
+            <h3>Data Analysis and Fairness Assessment Process</h3>
+            <img src="Data-Analysis.png" alt="Data Analysis and Fairness Assessment Process" style="max-width:90vw;max-height:80vh;width:auto;height:auto;box-shadow:0 4px 24px #eee;border-radius:12px;background:#fff;padding:16px;">
         </div>
 
-        <!-- Slide 4: Key Findings & Visuals -->
+
+
+
+        <!-- Slide 4: Bias Analysis -->
         <div class="slide">
-            <h2>Key Findings</h2>
+            <h2>Bias Analysis</h2>
             <div style="display:flex;justify-content:center;align-items:center;height:100%;background:#fff;">
-                <img src="Reducing-Incarceration-disparities.png" alt="Reducing Incarceration Disparities" style="max-width:65vw;max-height:65vh;width:auto;height:auto;box-shadow:0 4px 24px #eee;border-radius:12px;background:#fff;padding:16px;margin-top:0px;">
+                <img src="output.png" alt="Bias Mitigation Result" style="max-width:65vw;max-height:65vh;width:auto;height:auto;box-shadow:0 4px 24px #eee;border-radius:12px;background:#fff;padding:16px;">
             </div>
         </div>
 
@@ -226,14 +208,17 @@
                 <img src="output2.png" alt="Bias Mitigation Result" style="max-width:65vw;max-height:65vh;width:auto;height:auto;box-shadow:0 4px 24px #eee;border-radius:12px;background:#fff;padding:16px;">
             </div>
         </div>
+
+  
         <!-- Slide 6: Ethical Considerations -->
         <div class="slide">
+            <h2>Ethical Considerations</h2>
             <div style="display:flex;justify-content:center;align-items:center;height:calc(100% - 40px);background:#fff;">
                 <img src="ethical-handling.png" alt="Ethical Handling" style="max-width:95vw;max-height:90vh;width:auto;height:auto;box-shadow:0 4px 24px #eee;border-radius:12px;background:#fff;padding:0;">
             </div>
         </div>
 
-        <!-- Slide 6: Recommendations & Conclusion -->
+        <!-- Slide 7: Recommendations & Conclusion -->
         <div class="slide">
             <h2>Recommendations & Conclusion</h2>
             <div class="content-text">
@@ -259,6 +244,7 @@
     </div>
 
     <!-- Slide Counter -->
+
     <div class="slide-counter">
         <span id="slideNumber">1</span> / <span id="totalSlides">7</span>
     </div>
@@ -266,6 +252,7 @@
     <script>
         let currentSlide = 0;
         const slides = document.querySelectorAll('.slide');
+
 
     const totalSlides = 7;
     document.getElementById('totalSlides').textContent = totalSlides;
